@@ -101,7 +101,7 @@ def run_quiz():
         print("Food goes to your stomach. Let's remember that!")
 
     # Question 12
-    answer = input("What do you wear on your head before riding a bike to be safe? ").strip().lower() # Added space  
+    answer = input("What do you wear on your head before riding a bike to be safe? ").strip().lower() # Added space
     if answer == 'helmet':
         print("Great! A helmet keeps your head safe.")
         score += 1
